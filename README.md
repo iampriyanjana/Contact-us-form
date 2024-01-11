@@ -3,5 +3,5 @@ Clone the repository using *git clone https://github.com/iampriyanjana/Contact-u
 
 Then, 
 Go to the required folder and,
-Run this command *npm start*
+Run this command : *npm start*
 
