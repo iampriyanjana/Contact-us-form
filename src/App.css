@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+.contact-head{
+    width: 1000px;
+    margin-left: 50px;
+}
+.button{
+    max-width: 100%;
+    margin: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 34px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+    width: 200px;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    height: 40px;
+    width: 430px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.btt{
+    margin-top: 10px;
+}
+.Contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+.Contact-form input{
+    width: 430px;
+    height: 30px;
+}
+.Contact-form label{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: white;
+}
+.submitBtn{
+    margin: 30px;
+    margin-left: 290px;
+}
+.service{
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
